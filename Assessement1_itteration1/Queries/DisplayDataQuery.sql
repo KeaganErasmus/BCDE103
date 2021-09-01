@@ -12,3 +12,6 @@ GO
 
 SELECT * FROM [dbo].[Refferer]
 GO
+
+SELECT * FROM [dbo].[FSA]
+GO
