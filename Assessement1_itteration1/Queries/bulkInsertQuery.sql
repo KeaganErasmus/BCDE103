@@ -40,3 +40,12 @@ from 'C:\Users\keagan\OneDrive\Documents\GitHub\BCDE103\Assessement1_itteration1
          FIELDTERMINATOR =',',
          ROWTERMINATOR ='\n'
       );
+
+BULK INSERT [dbo].[Refferal]
+from 'C:\Users\keagan\OneDrive\Documents\GitHub\BCDE103\Assessement1_itteration1\CSVs\Refferal.csv'
+ WITH
+      (
+		 FIRSTROW=2,
+         FIELDTERMINATOR =',',
+         ROWTERMINATOR ='\n'
+      );

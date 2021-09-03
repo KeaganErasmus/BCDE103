@@ -5,7 +5,7 @@ SELECT * FROM [dbo].[Patient]
 GO
 
 --SELECT
---DATEDIFF(YEAR Patient.DOB, Referral.referralDate) AS 'Age at Referral',
+--DATEDIFF(YEAR, [dbo].[Patient].DOB, Referral.referralDate) AS 'Age at Referral'
 
 SELECT * FROM [dbo].[Surgeon]
 GO
@@ -13,5 +13,5 @@ GO
 SELECT * FROM [dbo].[Refferer]
 GO
 
-SELECT * FROM [dbo].[FSA]
+SELECT * FROM [dbo].[Refferal]
 GO
