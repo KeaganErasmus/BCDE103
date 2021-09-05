@@ -15,3 +15,7 @@ GO
 
 SELECT * FROM [dbo].[Refferal]
 GO
+
+SELECT * FROM [dbo].[Refferal] INNER JOIN [dbo].[Surgeon] ON department = 'cardiothoracic'
+GO
+
