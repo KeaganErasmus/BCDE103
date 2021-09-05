@@ -22,15 +22,6 @@ from 'C:\Users\keagan\OneDrive\Documents\GitHub\BCDE103\Assessement1_itteration1
       );
 
 
-BULK INSERT [dbo].[FSA]
-from 'C:\Users\keagan\OneDrive\Documents\GitHub\BCDE103\Assessement1_itteration1\CSVs\FSA.csv'
- WITH
-      (
-		 FIRSTROW=2,
-         FIELDTERMINATOR =',',
-         ROWTERMINATOR ='\n'
-      );
-
 ---Refferer data
 BULK INSERT [dbo].[Refferer]
 from 'C:\Users\keagan\OneDrive\Documents\GitHub\BCDE103\Assessement1_itteration1\CSVs\Refferer.csv'

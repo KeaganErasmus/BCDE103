@@ -54,3 +54,7 @@ refferalDate Date,
 refferedFrom VARCHAR(25),
 fsaDate DATE
 )
+
+INSERT TABLE Refferal(
+	refferalCode INT IDENTITY(1,1) PRIMARY KEY,
+)
