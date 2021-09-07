@@ -38,5 +38,12 @@ from 'C:\Users\keagan\OneDrive\Documents\GitHub\BCDE103\Assessement1_itteration1
       (
 		 FIRSTROW=2,
          FIELDTERMINATOR =',',
-         ROWTERMINATOR ='\n'
+         ROWTERMINATOR ='\n',
       );
+
+load data infile 'C:\Users\keagan\OneDrive\Documents\GitHub\BCDE103\Assessement1_itteration1\CSVs\Refferal.csv'
+into table [dbo].[Refferal]
+FIRSTROW=2,
+fields terminated by ',',
+lines terminated by '\n',
+(refferalCode, surgeonID, patientID, reffererID, refferalDate, refferedFrom, fsaDate);
