@@ -1,0 +1,10 @@
+Create a login.//
+
+Create a user for that login.
+Create a role.
+Add the user/login to the role.
+Add the 3 views to the role.
+And that's it.
+
+
+New Hire
